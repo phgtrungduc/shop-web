@@ -1,3 +1,6 @@
+//các hàm reducer để chỉ rõ ứng dụng sẽ làm gì khi nhận các action
+//hàm này return lại 1 state mới nhưng đặc biệt không làm thay đổi state cũ
+
 import {ADD_TO_CART, CHANGE_NUMBER, DELETE_CART } from "../constant/constant.js"
 let abc = localStorage.getItem("myCart");
 const initState = {
